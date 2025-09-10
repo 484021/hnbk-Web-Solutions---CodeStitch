@@ -342,7 +342,6 @@ body {
   }
   #cs-navigation .cs-button-solid {
     display: none;
-    border-radius: 4px;
   }
 }
 /* Tablet - 768px */
@@ -351,7 +350,6 @@ body {
     display: block;
   }
 }
-
 /*-- -------------------------- -->
 <---     Navigation Dropdown    -->
 <--- -------------------------- -*/
@@ -515,7 +513,6 @@ body {
     display: none;
   }
 }
-
 /*-- -------------------------- -->
 <---     Desktop Navigation     -->
 <--- -------------------------- -*/
@@ -703,7 +700,6 @@ body {
     position: relative;
     z-index: 1;
     transition: color 0.3s;
-    border-radius: 4px;
   }
   #cs-navigation .cs-button-solid:before {
     content: "";
@@ -716,15 +712,12 @@ body {
     left: 0;
     z-index: -1;
     transition: width 0.3s;
-    border-radius: 4px;
   }
   #cs-navigation .cs-button-solid:hover {
     color: #1a1a1a;
-    border-radius: 4px;
   }
   #cs-navigation .cs-button-solid:hover:before {
     width: 100%;
-    border-radius: 4px;
   }
 }
 /* Large Desktop - 1300px */
