@@ -36,13 +36,11 @@ document.addEventListener("scroll", (e) => {
   }
 });
 
-// mobile nav toggle code
-const dropDowns = Array.from(
-  document.querySelectorAll("#cs-navigation .cs-dropdown")
-);
-for (const item of dropDowns) {
-  const onClick = () => {
-    item.classList.toggle("cs-active");
-  };
-  item.addEventListener("click", onClick);
-}
+const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+        for (const item of faqItems) {
+            const onClick = () => {
+            item.classList.toggle('active')
+        }
+        item.addEventListener('click', onClick)
+        }
+                                
